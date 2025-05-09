@@ -1,0 +1,125 @@
+/* style.css */
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #795548; /* Marrom terra */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-secao {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.conteudo-secao:last-child {
+    border-bottom: none;
+}
+
+.conteudo-secao h2 {
+    color: #2e7d32; /* Verde musgo */
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 5px;
+}
+
+.paragrafo-inicial {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.lista-personagens {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.personagem {
+    flex: 1 0 45%; /* Distribui os personagens em duas colunas */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.personagem h3 {
+    color: #5c6bc0; /* Azul etéreo */
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Estilos para a seção de galeria e imagem */
+#galeria {
+    text-align: center; /* Centraliza o conteúdo da galeria */
+}
+
+.imagem-container {
+    max-width: 500px; /* Define uma largura máxima para o contêiner da imagem */
+    margin: 20px auto; /* Centraliza o contêiner da imagem */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.imagem-container img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaçamento extra abaixo da imagem */
+    margin-bottom: 10px; /* Adiciona um pouco de espaço abaixo da imagem */
+}
+
+.legenda-imagem {
+    font-style: italic;
+    color: #777;
+    font-size: 0.9em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #795548; /* Marrom terra */
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
